@@ -3,4 +3,7 @@
 gcc gTidesKozai.c -m -lgsl -lgslcblas -o gTides
 
 #Running the code:
-./gTides <name of the file to store results>
+./gTides FILENAME
+
+#Plotting Results
+python3 plotcmp.py FILENAME
